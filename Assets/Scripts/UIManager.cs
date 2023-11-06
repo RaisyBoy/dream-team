@@ -38,4 +38,12 @@ public class UIManager : MonoBehaviour
         if (instance.canvas.enabled)
             GameManager.instance.ResumeGameplay();
     }
+    public void StartGame()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+    }
+    public void EndGame()
+    {
+        UnityEditor.EditorApplication.ExitPlaymode();
+    }
 }
