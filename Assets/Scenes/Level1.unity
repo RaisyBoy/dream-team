@@ -1562,6 +1562,18 @@ PrefabInstance:
       propertyPath: m_Offset.y
       value: -0.38242555
       objectReference: {fileID: 0}
+    - target: {fileID: 7135402659176209965, guid: c79d242c1176d4a5b93425ed31eb8714,
+        type: 3}
+      propertyPath: portalOnSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 5332a6c16e0d75c42b9c6432d95c65bf,
+        type: 3}
+    - target: {fileID: 7135402659176209965, guid: c79d242c1176d4a5b93425ed31eb8714,
+        type: 3}
+      propertyPath: portalOffSprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 6364b1fb9d0ded3439a48dffe7aea815,
+        type: 3}
     - target: {fileID: 7135402659176209966, guid: c79d242c1176d4a5b93425ed31eb8714,
         type: 3}
       propertyPath: m_RootOrder
@@ -1570,12 +1582,12 @@ PrefabInstance:
     - target: {fileID: 7135402659176209966, guid: c79d242c1176d4a5b93425ed31eb8714,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.5
+      value: 8.409
       objectReference: {fileID: 0}
     - target: {fileID: 7135402659176209966, guid: c79d242c1176d4a5b93425ed31eb8714,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.039
+      value: -0.375
       objectReference: {fileID: 0}
     - target: {fileID: 7135402659176209966, guid: c79d242c1176d4a5b93425ed31eb8714,
         type: 3}
