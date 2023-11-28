@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4130012919337877410}
   - component: {fileID: 2395057935711879073}
   - component: {fileID: 9079046970653746287}
+  - component: {fileID: 6765303247041555809}
   m_Layer: 0
   m_Name: Moving spikes
   m_TagString: Untagged
@@ -145,7 +146,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -166,6 +167,18 @@ MonoBehaviour:
   firstPoint: {fileID: 3907248743092657238}
   secondPoint: {fileID: 8586460400372374818}
   speed: 0.01
+--- !u!114 &6765303247041555809
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1581421935235674095}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b9345713b0254763b8e91d0069a02de, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &3907248743092657238
 GameObject:
   m_ObjectHideFlags: 0
